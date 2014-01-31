@@ -15,18 +15,6 @@ get_header(); ?>
    #masthead {
      display: none;
    }
-   /* Mailchimp Signup Form Style Start */
-   #mc_embed_signup input.email {
-   display: block;
-   padding: 10px 10px !important;
-   margin: 0 4% 10px 18% !important;
-
-   width: 58%;
-   min-width: 130px;
- }
-
- /* Mailchimp Signup Form Style End */
-
 
    /* Button Green Start */
    .button-green {
