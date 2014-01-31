@@ -38,3 +38,40 @@ and Blueprint http://www.blueprintcss.org/
 #infinite-footer{
   display: none;
 }
+
+/* Make MailChimp Subscribe Form Look Better Start */
+#mc_embed_signup .button {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 2px !important;
+    padding-bottom: 3px !important;
+    font-weight: normal !important;
+    width: 100% !important;
+}
+
+.entry-content #mc_embed_signup h2 {
+    font-size: 1.8em !important;
+}
+.entry-content #mc_embed_signup input.email {
+    width: 100% !important;
+}
+.entry-content #mc_embed_signup label {
+    padding-bottom: 0 !important;
+}
+.entry-content #mc_embed_signup .mc-field-group {
+    width: 99% !important;
+}
+
+.widget #mc_embed_signup form {
+    text-align: center !important;
+    font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+.widget #mc_embed_signup input.email {
+    width: 100% !important;
+    text-align: center;
+}
+.widget #mc_embed_signup input.button {
+    width: 100% !important;
+}
+
+/* Make MailChimp Subscribe Form Look Better End */
