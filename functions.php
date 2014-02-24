@@ -33,3 +33,12 @@
       endif;
   }
   add_action( 'independent_publisher_before_post_bottom_tag_list', 'independent_publisher_show_further_reading', 10 );
+
+
+  /*
+    * Add Favicon
+    */
+  function blog_favicon() {
+    echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.get_bloginfo('stylesheet_directory').'/images/favicon.ico" />' . "\n";
+  }
+  add_action('wp_head', 'blog_favicon');
