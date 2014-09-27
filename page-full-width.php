@@ -16,6 +16,61 @@ get_header(); ?>
      display: none;
    }
 
+
+   .l-box {
+           padding: 1em;
+       }
+
+   .button-success,
+           .button-error,
+           .button-warning,
+           .button-secondary,
+           .button-purple {
+               color: white !important;
+               border-radius: 4px;
+               text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+               text-decoration: none !important;
+           }
+
+           .button-success {
+               background: rgb(28, 184, 65); /* this is a green */
+           }
+
+           .button-error {
+               background: rgb(202, 60, 60); /* this is a maroon */
+           }
+
+           .button-warning {
+               background: rgb(223, 117, 20); /* this is an orange */
+           }
+
+           .button-secondary {
+               background: rgb(66, 184, 221); /* this is a light blue */
+           }
+
+           .button-purple {
+              background: rgb(127, 0, 255); /* this is a purple */
+           }
+
+
+           .button-xsmall {
+                       font-size: 70%;
+                   }
+
+                   .button-small {
+                       font-size: 85%;
+                   }
+
+                   .button-large {
+                       font-size: 110%;
+                   }
+
+                   .button-xlarge {
+                       font-size: 125%;
+                   }
+
+
+
    /* Button Green Start */
    .button-green {
       border-top: 1px solid #319671;
